@@ -99,7 +99,7 @@ const StarshipList = ({
 
                 {/* Detail Button */}
                 <Link
-                  to={`/starship/${index + 1}`}
+                  to={`/starship/${getIdFromUrl(ship.url)}`}
                   className="mt-4 inline-flex items-center justify-center px-4 py-2 bg-yellow-500 text-gray-900 rounded-lg font-medium hover:bg-yellow-400 transition-colors duration-300 transform hover:scale-105"
                 >
                   Detayları Görüntüle

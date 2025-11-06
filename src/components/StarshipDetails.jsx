@@ -13,7 +13,7 @@ const StarshipDetails = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          `https://swapi.dev/api/starships/${id}/`
+          `https://swapi.dev/api/starships/${id}`
         );
         setStarship(response.data);
         setLoading(false);
