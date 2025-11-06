@@ -2,6 +2,10 @@
 
 A responsive web application that displays information about Star Wars starships using the SWAPI (Star Wars API). Built with React, Vite, and Tailwind CSS.
 
+## Live:
+
+https://star-wars-ap.netlify.app/
+
 ## Features
 
 - View a grid of Star Wars starships with their details
