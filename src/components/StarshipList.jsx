@@ -55,7 +55,7 @@ const StarshipList = ({
                 </div>
               </div>
 
-              {/* Orta Kısım - Detaylar */}
+              {/* Middle Area - Details */}
               <div className="p-6 bg-gray-800/60 backdrop-blur-sm flex-1 flex flex-col rounded-b-xl">
                 <div className="grid grid-cols-2 gap-3 text-sm flex-1">
                   <div className="space-y-1">
@@ -97,7 +97,7 @@ const StarshipList = ({
                   </div>
                 </div>
 
-                {/* Detay Butonu */}
+                {/* Detail Button */}
                 <Link
                   to={`/starship/${index + 1}`}
                   className="mt-4 inline-flex items-center justify-center px-4 py-2 bg-yellow-500 text-gray-900 rounded-lg font-medium hover:bg-yellow-400 transition-colors duration-300 transform hover:scale-105"
